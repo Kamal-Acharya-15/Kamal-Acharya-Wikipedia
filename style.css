@@ -1,76 +1,91 @@
 body {
-    font-family: Georgia, "Times New Roman", serif;
-    background-color: #f8f9fa;
-    color: #202122;
-    margin: 0;
+  margin: 0;
+  background-color: #f8f9fa;
+  color: #202122;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Lato, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
 }
 
-.page {
-    max-width: 1000px;
-    margin: auto;
-    padding: 20px;
-    background: white;
+.mw-page {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff;
 }
 
-/* Infobox (RIGHT FLOAT like Wikipedia) */
+/* Infobox */
 .infobox {
-    float: right;
-    width: 270px;
-    margin: 0 0 15px 20px;
-    border: 1px solid #a2a9b1;
-    background-color: #f8f9fa;
-    font-size: 14px;
-    border-collapse: collapse;
-}
-
-.infobox .title {
-    font-size: 18px;
-    text-align: center;
-    background-color: #eaecf0;
-    padding: 5px;
-}
-
-.infobox img {
-    width: 100%;
-    display: block;
+  float: right;
+  clear: right;
+  margin: 0 0 1em 1em;
+  width: 240px; /* Wikipedia-like width */
+  font-size: 12.8px;
+  border: 1px solid #a2a9b1;
+  background-color: #f8f9fa;
+  border-collapse: collapse;
 }
 
 .infobox th,
 .infobox td {
-    border: 1px solid #a2a9b1;
-    padding: 5px;
-    text-align: left;
-    vertical-align: top;
+  border: 1px solid #a2a9b1;
+  padding: 4px 6px;
+  vertical-align: top;
 }
 
 .infobox th {
-    background-color: #eaecf0;
-    width: 40%;
+  background-color: #eaecf0;
+  text-align: left;
+  font-weight: bold;
 }
 
-/* Headings */
+.infobox .fn {
+  text-align: center;
+  font-size: 125%;
+  font-weight: bold;
+  background-color: #eaecf0;
+}
+
+.infobox .image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Content */
+.content {
+  overflow: hidden;
+}
+
 h1 {
-    font-size: 28px;
-    margin-bottom: 10px;
+  font-size: 1.8em;
+  font-weight: normal;
+  border-bottom: 1px solid #a2a9b1;
+  margin-bottom: 0.5em;
 }
 
 h2 {
-    border-bottom: 1px solid #a2a9b1;
-    font-size: 20px;
-    margin-top: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  border-bottom: 1px solid #a2a9b1;
+  margin-top: 1em;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+ul {
+  margin-top: 0.3em;
+  padding-left: 1.6em;
 }
 
 /* Links */
 a {
-    color: #0645ad;
-    text-decoration: none;
+  color: #0645ad;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
-}
-
-/* Paragraph spacing */
-p {
-    line-height: 1.6;
+  text-decoration: underline;
 }
