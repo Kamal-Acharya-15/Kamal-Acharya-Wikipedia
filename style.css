@@ -1,26 +1,141 @@
-/* Reference superscript */
-sup {
-  font-size: 0.75em;
-  vertical-align: super;
+/* BODY */
+body {
+  margin: 0;
+  background-color: #f8f9fa;
+  color: #202122;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  line-height: 1.6;
 }
 
-sup a {
+/* PAGE WIDTH */
+.mw-body {
+  display: flex;
+  justify-content: center;
+}
+
+.mw-body-content {
+  width: 980px;
+  background: #ffffff;
+  padding: 20px 30px;
+}
+
+/* TITLE */
+#firstHeading {
+  font-size: 1.8em;
+  font-weight: normal;
+  border-bottom: 1px solid #a2a9b1;
+  margin-bottom: 0.25em;
+}
+
+/* HEADINGS */
+h2 {
+  font-size: 1.4em;
+  font-weight: normal;
+  border-bottom: 1px solid #a2a9b1;
+  margin-top: 1em;
+  position: relative;
+}
+
+/* EDIT LINK */
+.edit {
+  font-size: 12px;
+  color: #0645ad;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* INFOBOX */
+.infobox {
+  float: right;
+  width: 240px;
+  margin: 0 0 1em 1em;
+  border: 1px solid #a2a9b1;
+  background-color: #f8f9fa;
+  font-size: 12.8px;
+  border-collapse: collapse;
+}
+
+.infobox th,
+.infobox td {
+  border: 1px solid #a2a9b1;
+  padding: 4px 6px;
+}
+
+.infobox th {
+  background-color: #eaecf0;
+}
+
+.infobox .fn {
+  text-align: center;
+  font-size: 125%;
+}
+
+.infobox img {
+  width: 100%;
+}
+
+/* TOC */
+.toc {
+  border: 1px solid #a2a9b1;
+  background: #f8f9fa;
+  padding: 7px;
+  width: 260px;
+  font-size: 13px;
+  margin: 1em 0;
+}
+
+.toctitle {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.toc ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.toc li {
+  margin: 3px 0;
+}
+
+.toc a {
   text-decoration: none;
   color: #0645ad;
 }
 
-/* References list */
+/* TEXT */
+p {
+  margin: 0.5em 0;
+}
+
+ul {
+  padding-left: 1.6em;
+}
+
+/* REFERENCES */
 .references {
   font-size: 13px;
   padding-left: 20px;
 }
 
-.references li {
-  margin-bottom: 5px;
+/* SUPERSCRIPT */
+sup {
+  font-size: 0.75em;
 }
 
-/* Back arrow */
-.references a {
-  margin-left: 5px;
-  font-size: 12px;
+sup a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+/* LINKS */
+a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
