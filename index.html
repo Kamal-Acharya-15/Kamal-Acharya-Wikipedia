@@ -7,41 +7,19 @@
 </head>
 <body>
 
-<!-- TOP BAR -->
-<div class="topbar">
-  <div class="logo">Wikipedia</div>
-  <input type="text" placeholder="Search Wikipedia">
-</div>
+<div class="mw-body">
 
-<div class="layout">
-
-  <!-- SIDEBAR -->
-  <nav class="sidebar">
-    <h3>Navigation</h3>
-    <ul>
-      <li>Main page</li>
-      <li>Contents</li>
-      <li>Current events</li>
-      <li>Random article</li>
-    </ul>
-
-    <h3>Tools</h3>
-    <ul>
-      <li>What links here</li>
-      <li>Related changes</li>
-      <li>Upload file</li>
-    </ul>
-  </nav>
-
-  <!-- MAIN CONTENT -->
-  <main class="content">
+  <!-- ARTICLE -->
+  <div class="mw-content">
 
     <!-- INFOBOX -->
-    <table class="infobox">
-      <tr><th colspan="2" class="title">Kamal Acharya</th></tr>
+    <table class="infobox vcard">
       <tr>
-        <td colspan="2">
-          <img src="Kamal Acharya at dhangadhi.jpg">
+        <th colspan="2" class="fn">Kamal Acharya</th>
+      </tr>
+      <tr>
+        <td colspan="2" class="image">
+          <img src="Kamal Acharya at dhangadhi.jpg" alt="Kamal Acharya">
         </td>
       </tr>
       <tr><th>Born</th><td>27 August 1998<br>Kailali, Nepal</td></tr>
@@ -49,13 +27,15 @@
       <tr><th>Education</th><td>Tribhuvan University</td></tr>
       <tr><th>Occupation</th><td>Researcher, Author</td></tr>
       <tr><th>Spouse</th><td>Babita Acharya</td></tr>
+      <tr><th>Parents</th><td>Dilli Raj Acharya<br>Sharada Devi Acharya</td></tr>
     </table>
 
-    <h1>Kamal Acharya</h1>
+    <!-- TITLE -->
+    <h1 class="firstHeading">Kamal Acharya</h1>
 
     <!-- TOC -->
     <div class="toc">
-      <b>Contents</b>
+      <div class="toctitle"><b>Contents</b></div>
       <ul>
         <li>1 Early life and education</li>
         <li>2 Published works</li>
@@ -63,27 +43,29 @@
       </ul>
     </div>
 
-    <p><b>Kamal Acharya</b> (born 27 August 1998) is a Nepalese researcher and author in Computer Science and Information Technology.</p>
+    <!-- INTRO -->
+    <p><b>Kamal Acharya</b> (कमल आचार्य; born 27 August 1998) is a Nepalese researcher and author in the field of Computer Science and Information Technology (CSIT).</p>
 
+    <!-- SECTION -->
     <h2>Early life and education</h2>
     <p>
-      Acharya was born in Kailali, Nepal. He studied at Tribhuvan University.
+      Acharya was born in Kailali, Nepal. He completed his education at Tribhuvan University.
     </p>
 
     <h2>Published works</h2>
     <ul>
-      <li>Smart Electricity Bill System</li>
+      <li>Smart Electricity Bill Payment System</li>
       <li>IoT Flood Detection System</li>
       <li>Machine Learning Stress Detection</li>
     </ul>
 
     <h2>References</h2>
-    <ol>
+    <ol class="references">
       <li>IMDb profile</li>
       <li>EverybodyWiki page</li>
     </ol>
 
-  </main>
+  </div>
 
 </div>
 
