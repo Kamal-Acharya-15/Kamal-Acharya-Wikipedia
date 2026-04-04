@@ -1,121 +1,26 @@
-/* BASE */
-body {
-  margin: 0;
-  background-color: #f8f9fa;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Lato, Helvetica, Arial, sans-serif;
-  color: #202122;
-  font-size: 14px;
-  line-height: 1.6;
+/* Reference superscript */
+sup {
+  font-size: 0.75em;
+  vertical-align: super;
 }
 
-/* MAIN BODY */
-.mw-body {
-  max-width: 1000px;
-  margin: 0 auto;
-  background: #ffffff;
-  padding: 20px 30px;
+sup a {
+  text-decoration: none;
+  color: #0645ad;
 }
 
-/* CONTENT */
-.mw-content {
-  position: relative;
-}
-
-/* TITLE */
-.firstHeading {
-  font-size: 1.8em;
-  font-weight: normal;
-  border-bottom: 1px solid #a2a9b1;
-  margin-bottom: 0.25em;
-}
-
-/* HEADINGS */
-h2 {
-  font-size: 1.4em;
-  font-weight: normal;
-  border-bottom: 1px solid #a2a9b1;
-  margin-top: 1em;
-}
-
-/* INFOBOX */
-.infobox {
-  float: right;
-  clear: right;
-  width: 240px;
-  margin: 0 0 1em 1em;
-  border: 1px solid #a2a9b1;
-  background-color: #f8f9fa;
-  font-size: 12.8px;
-  border-collapse: collapse;
-}
-
-.infobox th,
-.infobox td {
-  border: 1px solid #a2a9b1;
-  padding: 4px 6px;
-  vertical-align: top;
-}
-
-.infobox th {
-  background-color: #eaecf0;
-  text-align: left;
-}
-
-.infobox .fn {
-  text-align: center;
-  font-size: 125%;
-  background-color: #eaecf0;
-}
-
-.infobox img {
-  width: 100%;
-  display: block;
-}
-
-/* TOC */
-.toc {
-  display: table;
-  border: 1px solid #a2a9b1;
-  background-color: #f8f9fa;
-  padding: 7px;
+/* References list */
+.references {
   font-size: 13px;
-  margin: 1em 0;
+  padding-left: 20px;
 }
 
-.toctitle {
-  font-weight: bold;
+.references li {
   margin-bottom: 5px;
 }
 
-.toc ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.toc li {
-  margin: 3px 0;
-}
-
-/* TEXT */
-p {
-  margin: 0.5em 0;
-}
-
-ul {
-  padding-left: 1.6em;
-}
-
-/* REFERENCES */
-.references {
-  font-size: 13px;
-}
-
-/* LINKS */
-a {
-  color: #0645ad;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+/* Back arrow */
+.references a {
+  margin-left: 5px;
+  font-size: 12px;
 }
