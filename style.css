@@ -28,13 +28,18 @@ body {
   margin-bottom: 0.25em;
 }
 
-/* HEADINGS */
 h2 {
   font-size: 1.4em;
   font-weight: normal;
-  border-bottom: 1px solid #a2a9b1;
   margin-top: 1em;
-  position: relative;
+  overflow: hidden; /* 🔥 KEY FIX */
+}
+
+h2::after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid #a2a9b1;
+  margin-top: 2px;
 }
 
 /* EDIT LINK */
