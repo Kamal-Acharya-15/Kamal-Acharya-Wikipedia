@@ -8,64 +8,92 @@
 <body>
 
 <div class="mw-body">
-  <div class="mw-content">
+  <div class="mw-body-content">
 
     <!-- INFOBOX -->
     <table class="infobox">
       <tr><th colspan="2" class="fn">Kamal Acharya</th></tr>
       <tr>
-        <td colspan="2"><img src="Kamal Acharya at dhangadhi.jpg"></td>
+        <td colspan="2">
+          <img src="Kamal Acharya at dhangadhi.jpg" alt="Kamal Acharya">
+        </td>
       </tr>
       <tr><th>Born</th><td>27 August 1998<br>Kailali, Nepal</td></tr>
       <tr><th>Nationality</th><td>Nepali</td></tr>
       <tr><th>Education</th><td>Tribhuvan University</td></tr>
       <tr><th>Occupation</th><td>Researcher, Author</td></tr>
+      <tr><th>Spouse</th><td>Babita Acharya</td></tr>
     </table>
 
     <!-- TITLE -->
-    <h1 class="firstHeading">Kamal Acharya</h1>
+    <h1 id="firstHeading">Kamal Acharya</h1>
 
-    <!-- INTRO WITH REFERENCES -->
+    <!-- TOC -->
+    <div id="toc" class="toc">
+      <div class="toctitle">Contents</div>
+      <ul>
+        <li><a href="#early_life">1 Early life and education</a></li>
+        <li><a href="#works">2 Published works</a></li>
+        <li><a href="#references">3 References</a></li>
+      </ul>
+    </div>
+
+    <!-- INTRO -->
     <p>
       <b>Kamal Acharya</b> is a Nepalese researcher and author in Computer Science
-      <sup id="cite_ref-1">
-        <a href="#cite_note-1">[1]</a>
-      </sup>.
+      <sup id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup>.
     </p>
 
     <!-- SECTION -->
-    <h2>Early life and education</h2>
+    <h2 id="early_life">
+      Early life and education
+      <span class="edit">[edit]</span>
+    </h2>
     <p>
       He studied at Tribhuvan University
-      <sup id="cite_ref-2">
-        <a href="#cite_note-2">[2]</a>
-      </sup>.
+      <sup id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup>.
     </p>
 
-    <h2>Published works</h2>
+    <h2 id="works">
+      Published works
+      <span class="edit">[edit]</span>
+    </h2>
     <ul>
-      <li>Smart Electricity Bill System</li>
-      <li>IoT Flood Detection</li>
+      <li>Smart Electricity Bill Payment System</li>
+      <li>IoT Flood Detection System</li>
+      <li>Machine Learning Stress Detection</li>
     </ul>
 
-    <!-- REFERENCES -->
-    <h2>References</h2>
-    <ol class="references">
+    <h2 id="references">
+      References
+      <span class="edit">[edit]</span>
+    </h2>
 
+    <ol class="references">
       <li id="cite_note-1">
-        IMDb profile of Kamal Acharya
+        IMDb profile
         <a href="#cite_ref-1">↑</a>
       </li>
-
       <li id="cite_note-2">
         Tribhuvan University record
         <a href="#cite_ref-2">↑</a>
       </li>
-
     </ol>
 
   </div>
 </div>
+
+<!-- Smooth scroll (Wikipedia-like behavior) -->
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener("click", function(e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute("href")).scrollIntoView({
+      behavior: "smooth"
+    });
+  });
+});
+</script>
 
 </body>
 </html>
