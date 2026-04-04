@@ -10,7 +10,10 @@
 <div class="mw-body">
   <div class="mw-body-content">
 
-    <!-- INFOBOX -->
+    <!-- TITLE FIRST -->
+    <h1 id="firstHeading">Kamal Acharya</h1>
+
+    <!-- INFOBOX (must be AFTER title for correct float) -->
     <table class="infobox">
       <tr><th colspan="2" class="fn">Kamal Acharya</th></tr>
       <tr>
@@ -25,11 +28,8 @@
       <tr><th>Spouse</th><td>Babita Acharya</td></tr>
     </table>
 
-    <!-- TITLE -->
-    <h1 id="firstHeading">Kamal Acharya</h1>
-
     <!-- TOC -->
-    <div id="toc" class="toc">
+    <div class="toc">
       <div class="toctitle">Contents</div>
       <ul>
         <li><a href="#early_life">1 Early life and education</a></li>
@@ -40,60 +40,26 @@
 
     <!-- INTRO -->
     <p>
-      <b>Kamal Acharya</b> is a Nepalese researcher and author in Computer Science
+      <b>Kamal Acharya</b> is a Nepalese researcher and author
       <sup id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup>.
     </p>
 
-    <!-- SECTION -->
-    <h2 id="early_life">
-      Early life and education
-      <span class="edit">[edit]</span>
-    </h2>
-    <p>
-      He studied at Tribhuvan University
-      <sup id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup>.
-    </p>
+    <h2 id="early_life">Early life and education</h2>
+    <p>He studied at Tribhuvan University.</p>
 
-    <h2 id="works">
-      Published works
-      <span class="edit">[edit]</span>
-    </h2>
+    <h2 id="works">Published works</h2>
     <ul>
-      <li>Smart Electricity Bill Payment System</li>
-      <li>IoT Flood Detection System</li>
-      <li>Machine Learning Stress Detection</li>
+      <li>Smart Electricity Bill System</li>
+      <li>IoT Flood Detection</li>
     </ul>
 
-    <h2 id="references">
-      References
-      <span class="edit">[edit]</span>
-    </h2>
-
+    <h2 id="references">References</h2>
     <ol class="references">
-      <li id="cite_note-1">
-        IMDb profile
-        <a href="#cite_ref-1">↑</a>
-      </li>
-      <li id="cite_note-2">
-        Tribhuvan University record
-        <a href="#cite_ref-2">↑</a>
-      </li>
+      <li id="cite_note-1">Example reference <a href="#cite_ref-1">↑</a></li>
     </ol>
 
   </div>
 </div>
-
-<!-- Smooth scroll (Wikipedia-like behavior) -->
-<script>
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener("click", function(e) {
-    e.preventDefault();
-    document.querySelector(this.getAttribute("href")).scrollIntoView({
-      behavior: "smooth"
-    });
-  });
-});
-</script>
 
 </body>
 </html>
